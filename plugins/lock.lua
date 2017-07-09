@@ -314,7 +314,7 @@ tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 end
 local function group_settings(msg, target)
 local group = load_data('bot/group.json')
-pm = '🔧اهلا بك في اعدادات سورس DEV_FLASH  ¦👨‍🔧'
+pm = '🔧اهلا بك في اعدادات سورس THE_COBRA ¦👨‍🔧'
 pm = pm..'\n ⚙<b>الروابط </b> : '..group[tostring(target)]['settings']['lock_link']..'⚙'
 pm = pm..'\n ⚙<b>المعرف</b> : '..group[tostring(target)]['settings']['lock_username']..'⚙'
 pm = pm..'\n ⚙<b>التعديل </b> : '..group[tostring(target)]['settings']['lock_edit']..'⚙'
